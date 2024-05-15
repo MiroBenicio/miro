@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miro</title>
+    <link rel="stylesheet" href="./assets/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <h1>Miro Benício</h1>
+        </div>
+        <div class="navList">
+          <a href="#sobreMim">Sobre Mim</a>
+          <a href="#formacao">Minha formação</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="sobreMim">
+        <p>
+          Meu nome é Miro Benício, trabalho como Engenheiro de Software na
+          empresa MyTiki Inc. Tenho 22 anos, nascido em Patos-PB e resido na
+          cidade de João Pessoa, atualmente. Gosto ir a academia, treino 6 vezes
+          na semana e também curto fazer dieta e me alimentar de maneira
+          saudável. Atualmente estou buscando desevolver novos hobbies,
+          estudando cinema e procurando uma arte marcial para praticar.
+        </p>
+        <img src="./assets/eu.jpg" alt="" />
+      </section>
+      <section id="formacao">
+        <p>
+          Estou cursando Análise e Desenvolvimento de Sistemas pela UNINTER. Sou
+          fluente em inglês, aprendi de maneira autônoma ao longo da infância e
+          adolescência, nunca tendo feito um curso.
+        </p>
+        <p>
+          Na área de desenvolvimento, atuo principalmente com javascript e suas
+          tecnologias. Utilizando, principalmente, Typescript e Vue para
+          desenvolver aplicações completas.
+        </p>
+      </section>
+      <section id="portfolio">
+        <a href="https://github.com/MiroBenicio" target="_blank">
+          <img src="./assets/github-logo.png" alt="" />
+        </a>
+        <figcaption>Clique aqui para acessar meu portfólio</figcaption>
+      </section>
+      <section id="contato">
+        <h1>Contato</h1>
+        <form method="POST">
+          <input type="text" placeholder="Nome" name="name" />
+          <input type="email" placeholder="Email" name="email" />
+          <textarea
+            name="message"
+            rows="10"
+            placeholder="Escreva aqui sua mensagem..."
+          ></textarea>
+          <button>Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
